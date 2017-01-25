@@ -1,0 +1,1 @@
+This is a python library for the league of legends api.
