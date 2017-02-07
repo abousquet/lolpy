@@ -186,7 +186,7 @@ class APIClient:
     version_summoner = "v1.4"
     version_stats = "v1.3"
 
-    def __init__(self, string="RGAPI-80b016df-e1ba-4f88-9264-9d5c782c0729", region=Region.NA, handle_limits=True):
+    def __init__(self, string="", region=Region.NA, handle_limits=True):
         assert type(string) == str, "Argument must be str"
         self.apiKey = string
         self.region = region
