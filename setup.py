@@ -19,4 +19,4 @@ setup(name='lolpy',
       zip_safe=False,
       install_requires=["lolpy>=0.1",
                         "numpy==1.12.0",
-                        "requests==2.12.4"])
+                        "requests==2.20.0"])
