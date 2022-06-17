@@ -18,5 +18,5 @@ setup(name='lolpy',
       packages=['lolpy'],
       zip_safe=False,
       install_requires=["lolpy>=0.1",
-                        "numpy==1.12.0",
+                        "numpy==1.21.0",
                         "requests==2.12.4"])
